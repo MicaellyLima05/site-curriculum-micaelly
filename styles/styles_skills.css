@@ -123,9 +123,9 @@
     }
 
     .cabecalho {
-        width: 130%;
-        padding: 10% 3% 6% 3%;
-        
+        width: 95%;
+        padding: 8% 3% 6% 3%;
+        border-bottom: 2px solid var(--cor-3);
     }
 
     .cabecalho__menu {
@@ -135,31 +135,27 @@
         
     }
 
-    .cabecalho__menu__link1, .cabecalho__menu__link2, .cabecalho__menu__link3 {
-        font-size: 1.25rem;
-    }
-
     .apresentacao__1 {
         display: flex;
         flex-direction: column;
         gap: 0px;
-        width: 170%;
+        width: 100%;
         
     }
 
     .apresentacao__habilidades__hard {
-        padding: 20% 10% 0% 10%;
+        padding: 20% 10% 0% 2%;
     }
 
     .apresentacao__habilidades__soft {
-        padding: 10%;
+        padding: 15% 4%;
     }
 
     .apresentacao__habilidades__hard__titulo, .apresentacao__habilidades__soft__titulo {
-        width: 150%;
+        width: 80%;
         text-align: center;
         font-size: 3rem;
-        margin-left: 20%;
+        margin-left: 32%;
     }
     
     .apresentacao__habilidades__hard__paragrafo, .apresentacao__habilidades__soft__paragrafo1, .apresentacao__habilidades__soft__paragrafo2 {
@@ -169,24 +165,24 @@
     }
 
     .apresentacao__habilidades__hard__imagem {
-        width: 50%;
+        width: 60%;
         margin-left: 140%;
     }
 
     .apresentacao__habilidades__soft__imagem {
-        width: 40%;
+        width: 50%;
         margin-left: 140%;
     }
 
     .apresentacao1__conteudo__link {
-        width: 80%;
-        padding: 10%;
-        margin-left: 30%;
+        width: 30%;
+        padding: 5% 30%;
+        margin-left: 2%;
         margin-bottom: 10%;
     }
 
     .apresentacao__1__conteudo__link__imagem {
-        width: 20%;
+        width: 30%;
     }
 
     .apresentacao1__conteudo__link1 {
@@ -194,11 +190,11 @@
     }
     
     .rodape {
-        width: 150%;
+        width: 110%;
     }
 
     .rodape__itens__imagem {
-        padding-left: 8%;
+        padding-left: 7%;
     }
     
     .rodape__itens__titulo {
